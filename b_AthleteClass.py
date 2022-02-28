@@ -17,7 +17,7 @@ class Athlete:
 
 
 class Football_Player(Athlete):
-
+#call the init method of the superclass then assign new attributes
     def __init__(self,ht,wt,bodyfat,position,team):
 
         Athlete.__init__(self,ht,wt,bodyfat)
